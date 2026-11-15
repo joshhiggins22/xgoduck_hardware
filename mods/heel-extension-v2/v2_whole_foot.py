@@ -14,29 +14,23 @@ import cadquery as cq
 HW = "/home/joshhiggins/workspace/xgoduck_hardware/structure/V2_STANDARD_"
 OUT = os.path.dirname(os.path.abspath(__file__))
 
-def build_extension(ext, width, sole_top=8.0, corner_r=5.0, bevel=2.0):
+def build_extension(ext, width, sole_top=9.4, corner_r=2.5, blend_top=10.8):
+    """Full-width, sole-matched heel extension. No rear taper: the rear edge stays full
+    width and full sole height. Top blends up into the foot's rising sole at the front."""
     heel_x = -27.0
     x_rear = heel_x - ext          # new heel edge
-    x_front = -19.0                # overlap 8mm into the existing heel pad
-    hw = width / 2.0
-    # rounded rectangular sole plate (fillet the vertical corner edges)
-    plate = (cq.Workplane("XY")
-             .center((x_rear + x_front) / 2.0, 0)
-             .rect(x_front - x_rear, width)
-             .extrude(sole_top)
-             .edges("|Z").fillet(corner_r))
-    # rear ski-tip bevel: cut a wedge off the rear-bottom edge so it rides over carpet
-    if bevel > 0:
-        wedge = (cq.Workplane("XY")
-                 .center(x_rear + bevel / 2.0, 0)
-                 .rect(bevel + 2, width + 4)
-                 .extrude(sole_top + 2))
-        # slope the wedge: keep only material above the bevel plane at the rear
-        # simpler: chamfer the rear-bottom edge of the plate
-        try:
-            plate = plate.edges("<X and <Z").chamfer(bevel)
-        except Exception:
-            pass
+    x_front = -19.0                # overlap into the full-width sole
+    x_blend = -23.0                # where the stock sole is flat at sole_top
+    # side profile (x-z): flat sole top, rising to blend_top at the front to meet the foot
+    pts = [(x_rear, 0.0), (x_front, 0.0), (x_front, blend_top),
+           (x_blend, sole_top), (x_rear, sole_top)]
+    plate = (cq.Workplane("XZ").polyline(pts).close()
+             .extrude(width / 2.0, both=True))
+    # small corner radii for a smooth look, but the rear stays essentially full width
+    try:
+        plate = plate.edges("|Z").fillet(corner_r)
+    except Exception:
+        pass
     return plate
 
 def to_trimesh(shape):
@@ -62,7 +56,7 @@ def rear_holes(mesh):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ext", type=float, default=15.0)
-    ap.add_argument("--width", type=float, default=37.0)
+    ap.add_argument("--width", type=float, default=39.7)
     args = ap.parse_args()
 
     ext_mesh = to_trimesh(build_extension(args.ext, args.width))
