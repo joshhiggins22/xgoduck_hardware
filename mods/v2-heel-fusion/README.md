@@ -19,3 +19,7 @@ The F3D was reopened in Fusion and recomputed at 10 and 15 mm. At each length al
 ## First fit on the duck
 
 With power off, hand-check smooth movement through sitting and rising and clearance around the new heel. Confirm all pads seat flat against their feet and all screw heads sit below the TPU. For a stability trial, use the same stand-up command and carpet patch as with the stock feet. Observe the end of the head lift from the side and whether either heel catches on the first backward step. The design has been checked digitally only.
+
+## Shorter heel options
+
+The [5 mm](heel5/) and [10 mm](heel10/) directories each contain a complete set of left and right rigid feet and matching TPU soles. Print all four parts from the same directory. The four STL files beside this README are the 15 mm version. All three lengths use the same editable Fusion master. [Export measurements and STL hashes](fusion-export.json) · [Forefoot and screw alignment checks](mesh-check.json)

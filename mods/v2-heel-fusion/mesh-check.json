@@ -1,0 +1,62 @@
+{
+  "5": {
+    "Left_TPU": {
+      "rear_mm": -32.0,
+      "volume_cc": 12.7772,
+      "added_volume_cc": 1.1335,
+      "hole_centers_max_axis_error_mm": 2e-05,
+      "fore_geometry_symdiff_mm3": 8e-05
+    },
+    "Left_foot": {
+      "rear_mm": -32.0,
+      "volume_cc": 18.9077,
+      "added_volume_cc": 1.8405,
+      "hole_centers_max_axis_error_mm": 0.00037,
+      "fore_geometry_symdiff_mm3": 0.00011
+    },
+    "Right_TPU": {
+      "rear_mm": -32.0,
+      "volume_cc": 12.7772,
+      "added_volume_cc": 1.1335,
+      "hole_centers_max_axis_error_mm": 2e-05,
+      "fore_geometry_symdiff_mm3": 0.0002
+    },
+    "Right_foot": {
+      "rear_mm": -32.0,
+      "volume_cc": 18.8913,
+      "added_volume_cc": 1.8397,
+      "hole_centers_max_axis_error_mm": 0.00018,
+      "fore_geometry_symdiff_mm3": 6e-05
+    }
+  },
+  "10": {
+    "Left_TPU": {
+      "rear_mm": -37.0,
+      "volume_cc": 13.9028,
+      "added_volume_cc": 2.2591,
+      "hole_centers_max_axis_error_mm": 2e-05,
+      "fore_geometry_symdiff_mm3": 8e-05
+    },
+    "Left_foot": {
+      "rear_mm": -37.0,
+      "volume_cc": 20.7201,
+      "added_volume_cc": 3.6529,
+      "hole_centers_max_axis_error_mm": 0.00037,
+      "fore_geometry_symdiff_mm3": 0.00011
+    },
+    "Right_TPU": {
+      "rear_mm": -37.0,
+      "volume_cc": 13.9028,
+      "added_volume_cc": 2.2591,
+      "hole_centers_max_axis_error_mm": 2e-05,
+      "fore_geometry_symdiff_mm3": 0.0002
+    },
+    "Right_foot": {
+      "rear_mm": -37.0,
+      "volume_cc": 20.7038,
+      "added_volume_cc": 3.6523,
+      "hole_centers_max_axis_error_mm": 0.00018,
+      "fore_geometry_symdiff_mm3": 6e-05
+    }
+  }
+}
