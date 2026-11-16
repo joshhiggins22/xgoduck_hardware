@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "XGO Duck hardware",
+  "description": {"": "Build the V5 2S2P carrier and keeper from the V5 mounting interfaces."},
+  "supportedOS": "windows|mac",
+  "version": "1.0.0",
+  "editEnabled": true
+}

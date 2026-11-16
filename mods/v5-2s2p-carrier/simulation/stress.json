@@ -1,0 +1,2551 @@
+{
+  "walk_sha256": "1fc079512fe3fe23e274e7a9d8c9ad007e88439f0385ecf20c9596e57886249f",
+  "seed_start": 16400,
+  "trial_count": 8,
+  "phase_seconds": {
+    "settle": 2.0,
+    "move": 2.0,
+    "stop": 2.0,
+    "push": 0.1,
+    "recover": 2.5
+  },
+  "config_sha256": "674b703e357e844e02264c59fe5735280b6faa858772d74025885a38aeee68a5",
+  "groups": [
+    {
+      "foot": "v2-heel5",
+      "case": "v5-nominal",
+      "speed": 0.0,
+      "scale": 1.0,
+      "push_Ns_per_kg": 0.85,
+      "model": {
+        "standing_robot_center_from_trunk_mm": [
+          6.196627120403874,
+          0.061490127472693286,
+          -11.181959168829692
+        ],
+        "trunk_mass_kg": 0.2627895297428067,
+        "trunk_center_m": [
+          -0.01940248559690053,
+          -0.00012991390494228964,
+          -0.024556922436510347
+        ],
+        "central_inertia_kg_m2": [
+          [
+            0.00018923496210288823,
+            -1.0079749078791896e-06,
+            -5.051328016119642e-05
+          ],
+          [
+            -1.0079749078791902e-06,
+            0.00028699185419296273,
+            1.9480932229427492e-08
+          ],
+          [
+            -5.0513280161196416e-05,
+            1.948093222942901e-08,
+            0.00024560083748484277
+          ]
+        ],
+        "robot_mass_kg": 0.838026177425667,
+        "remaining_legacy_trunk": {
+          "mass_g": 84.62521614737423,
+          "central_principal_kg_m2": [
+            4.7137737419947025e-05,
+            9.305110631995134e-05,
+            0.00012460357421325755
+          ]
+        },
+        "imu_site_mm": [
+          -13.982,
+          -0.013,
+          -23.872999999999998
+        ],
+        "delta_g": 34.16874910132692,
+        "old_trunk": {
+          "standing_robot_center_from_trunk_mm": [
+            8.742738814652046,
+            0.10297473243629983,
+            -10.327878222904541
+          ],
+          "trunk_mass_kg": 0.2286207806414798,
+          "trunk_center_m": [
+            -0.014276,
+            -1.265565997738796e-05,
+            -0.02355284245744959
+          ],
+          "central_inertia_kg_m2": [
+            [
+              0.00015770114375269857,
+              5.082512930342637e-08,
+              -4.243723715974853e-05
+            ],
+            [
+              5.0825129303426404e-08,
+              0.00022283358492271885,
+              5.940000838335925e-08
+            ],
+            [
+              -4.243723715974853e-05,
+              5.940000838335917e-08,
+              0.00018709612859332876
+            ]
+          ],
+          "robot_mass_kg": 0.80385742832434
+        }
+      },
+      "episodes": [
+        {
+          "seed": 16400,
+          "carpet": {
+            "tau_s": 0.056602517155192836,
+            "friction": 0.6982168637952924
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.000940011940089797,
+          "walk_dx_m": 0.0009602733680857423,
+          "walk_dy_m": 0.0006112186086705416,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0003613643504606225,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.96,
+          "peak_push_tilt_deg": 65.17411334881315,
+          "min_case_floor_gap_mm": 36.728762190262856,
+          "min_estimated_bus_v": 7.062338712443777,
+          "max_simulated_joint_torque_Nm": 0.7794484794605493,
+          "gait_pass": false
+        },
+        {
+          "seed": 16401,
+          "carpet": {
+            "tau_s": 0.06040965963013771,
+            "friction": 0.9161736681784499
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.000932483256613427,
+          "walk_dx_m": 0.0009336395628627945,
+          "walk_dy_m": 0.0007855947126212987,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0003649639514331609,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.88,
+          "peak_push_tilt_deg": 69.69095836604349,
+          "min_case_floor_gap_mm": 21.493163966538358,
+          "min_estimated_bus_v": 7.006063244824925,
+          "max_simulated_joint_torque_Nm": 1.012434018675895,
+          "gait_pass": false
+        },
+        {
+          "seed": 16402,
+          "carpet": {
+            "tau_s": 0.052814049209947554,
+            "friction": 0.8519427989793301
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0006976051617926015,
+          "walk_dx_m": 0.0010651976506540065,
+          "walk_dy_m": 0.000766763585911532,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0004214042297613252,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 28.337287133394895,
+          "min_case_floor_gap_mm": 31.86966626116462,
+          "min_estimated_bus_v": 7.049954007880338,
+          "max_simulated_joint_torque_Nm": 0.8330820211253558,
+          "gait_pass": false
+        },
+        {
+          "seed": 16403,
+          "carpet": {
+            "tau_s": 0.042421459324956376,
+            "friction": 0.597157148670429
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.000882961621605679,
+          "walk_dx_m": 0.0008914901345725649,
+          "walk_dy_m": 0.00011684371885360028,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0003938414814627074,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 7.0,
+          "peak_push_tilt_deg": 69.63350140372432,
+          "min_case_floor_gap_mm": 41.084517317699536,
+          "min_estimated_bus_v": 7.058193280920549,
+          "max_simulated_joint_torque_Nm": 0.7510161946647214,
+          "gait_pass": false
+        },
+        {
+          "seed": 16404,
+          "carpet": {
+            "tau_s": 0.04016543668510945,
+            "friction": 1.0012848398150922
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009148305382492588,
+          "walk_dx_m": 0.0009540707825987185,
+          "walk_dy_m": 0.00050316332548113,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0003429547806010829,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 30.18150252872992,
+          "min_case_floor_gap_mm": 31.269833185542954,
+          "min_estimated_bus_v": 7.0552349148673255,
+          "max_simulated_joint_torque_Nm": 0.8339627889690912,
+          "gait_pass": false
+        },
+        {
+          "seed": 16405,
+          "carpet": {
+            "tau_s": 0.04377463310868161,
+            "friction": 0.9603034696558816
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0007513537168582059,
+          "walk_dx_m": 0.0006303654378061657,
+          "walk_dy_m": 9.092337313907566e-05,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.00041848085679547283,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 31.785856129087076,
+          "min_case_floor_gap_mm": 19.04413906815154,
+          "min_estimated_bus_v": 7.0443384091808054,
+          "max_simulated_joint_torque_Nm": 0.8640195217851904,
+          "gait_pass": false
+        },
+        {
+          "seed": 16406,
+          "carpet": {
+            "tau_s": 0.04036666199488455,
+            "friction": 0.7460622702605441
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0008758767368816537,
+          "walk_dx_m": 0.0010645223336401648,
+          "walk_dy_m": 0.000521342122094598,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.00037127717821752303,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.92,
+          "peak_push_tilt_deg": 65.47655870957269,
+          "min_case_floor_gap_mm": 38.791269569103044,
+          "min_estimated_bus_v": 7.058407809970197,
+          "max_simulated_joint_torque_Nm": 0.7658739816628761,
+          "gait_pass": false
+        },
+        {
+          "seed": 16407,
+          "carpet": {
+            "tau_s": 0.05043962395606755,
+            "friction": 0.8302286822406854
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009145358895794245,
+          "walk_dx_m": 0.0009819471523598025,
+          "walk_dy_m": 0.0005416772038130923,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0003803911588477503,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.82,
+          "peak_push_tilt_deg": 70.89546860022654,
+          "min_case_floor_gap_mm": 21.131013617723447,
+          "min_estimated_bus_v": 7.0317505528211255,
+          "max_simulated_joint_torque_Nm": 0.9113753284460102,
+          "gait_pass": false
+        }
+      ]
+    },
+    {
+      "foot": "v2-heel5",
+      "case": "v5-nominal",
+      "speed": 0.2,
+      "scale": 1.0,
+      "push_Ns_per_kg": 0.85,
+      "model": {
+        "standing_robot_center_from_trunk_mm": [
+          6.196627120403874,
+          0.061490127472693286,
+          -11.181959168829692
+        ],
+        "trunk_mass_kg": 0.2627895297428067,
+        "trunk_center_m": [
+          -0.01940248559690053,
+          -0.00012991390494228964,
+          -0.024556922436510347
+        ],
+        "central_inertia_kg_m2": [
+          [
+            0.00018923496210288823,
+            -1.0079749078791896e-06,
+            -5.051328016119642e-05
+          ],
+          [
+            -1.0079749078791902e-06,
+            0.00028699185419296273,
+            1.9480932229427492e-08
+          ],
+          [
+            -5.0513280161196416e-05,
+            1.948093222942901e-08,
+            0.00024560083748484277
+          ]
+        ],
+        "robot_mass_kg": 0.838026177425667,
+        "remaining_legacy_trunk": {
+          "mass_g": 84.62521614737423,
+          "central_principal_kg_m2": [
+            4.7137737419947025e-05,
+            9.305110631995134e-05,
+            0.00012460357421325755
+          ]
+        },
+        "imu_site_mm": [
+          -13.982,
+          -0.013,
+          -23.872999999999998
+        ],
+        "delta_g": 34.16874910132692,
+        "old_trunk": {
+          "standing_robot_center_from_trunk_mm": [
+            8.742738814652046,
+            0.10297473243629983,
+            -10.327878222904541
+          ],
+          "trunk_mass_kg": 0.2286207806414798,
+          "trunk_center_m": [
+            -0.014276,
+            -1.265565997738796e-05,
+            -0.02355284245744959
+          ],
+          "central_inertia_kg_m2": [
+            [
+              0.00015770114375269857,
+              5.082512930342637e-08,
+              -4.243723715974853e-05
+            ],
+            [
+              5.0825129303426404e-08,
+              0.00022283358492271885,
+              5.940000838335925e-08
+            ],
+            [
+              -4.243723715974853e-05,
+              5.940000838335917e-08,
+              0.00018709612859332876
+            ]
+          ],
+          "robot_mass_kg": 0.80385742832434
+        }
+      },
+      "episodes": [
+        {
+          "seed": 16400,
+          "carpet": {
+            "tau_s": 0.056602517155192836,
+            "friction": 0.6982168637952924
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.000940011940089797,
+          "walk_dx_m": 0.29831400036758277,
+          "walk_dy_m": 0.023804311323136672,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.000763859167256595,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.98,
+          "peak_push_tilt_deg": 68.70886495321547,
+          "min_case_floor_gap_mm": 38.63635268199128,
+          "min_estimated_bus_v": 7.0563335853832045,
+          "max_simulated_joint_torque_Nm": 0.7717413259873466,
+          "gait_pass": true
+        },
+        {
+          "seed": 16401,
+          "carpet": {
+            "tau_s": 0.06040965963013771,
+            "friction": 0.9161736681784499
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.000932483256613427,
+          "walk_dx_m": 0.293493951950556,
+          "walk_dy_m": 0.04419680656696814,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0014733592035333768,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.62,
+          "peak_push_tilt_deg": 70.12662615158877,
+          "min_case_floor_gap_mm": 19.915454386567415,
+          "min_estimated_bus_v": 7.0033051934078845,
+          "max_simulated_joint_torque_Nm": 0.9301160631716666,
+          "gait_pass": true
+        },
+        {
+          "seed": 16402,
+          "carpet": {
+            "tau_s": 0.052814049209947554,
+            "friction": 0.8519427989793301
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0006976051617926015,
+          "walk_dx_m": 0.286489924918298,
+          "walk_dy_m": 0.024357418753740874,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.000674935802213788,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 30.878290289382786,
+          "min_case_floor_gap_mm": 19.69312889813886,
+          "min_estimated_bus_v": 7.025105480927172,
+          "max_simulated_joint_torque_Nm": 0.7900225736814925,
+          "gait_pass": true
+        },
+        {
+          "seed": 16403,
+          "carpet": {
+            "tau_s": 0.042421459324956376,
+            "friction": 0.597157148670429
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.000882961621605679,
+          "walk_dx_m": 0.2889200293045211,
+          "walk_dy_m": 0.013750678305221527,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0007940168881632916,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 18.842523284041587,
+          "min_case_floor_gap_mm": 42.56918952384356,
+          "min_estimated_bus_v": 7.052910159253895,
+          "max_simulated_joint_torque_Nm": 0.7793760109859028,
+          "gait_pass": true
+        },
+        {
+          "seed": 16404,
+          "carpet": {
+            "tau_s": 0.04016543668510945,
+            "friction": 1.0012848398150922
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009148305382492588,
+          "walk_dx_m": 0.2816265089930495,
+          "walk_dy_m": 0.014646982220820007,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0006382830344838943,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.56,
+          "peak_push_tilt_deg": 71.54063719567263,
+          "min_case_floor_gap_mm": 10.233897404046441,
+          "min_estimated_bus_v": 7.026291585371171,
+          "max_simulated_joint_torque_Nm": 0.8814718660185947,
+          "gait_pass": true
+        },
+        {
+          "seed": 16405,
+          "carpet": {
+            "tau_s": 0.04377463310868161,
+            "friction": 0.9603034696558816
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0007513537168582059,
+          "walk_dx_m": 0.28225492597341434,
+          "walk_dy_m": 0.020863408508017767,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0009233859587498234,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 27.299828298032807,
+          "min_case_floor_gap_mm": 36.57215835892226,
+          "min_estimated_bus_v": 7.054757917942501,
+          "max_simulated_joint_torque_Nm": 0.9220987863940269,
+          "gait_pass": true
+        },
+        {
+          "seed": 16406,
+          "carpet": {
+            "tau_s": 0.04036666199488455,
+            "friction": 0.7460622702605441
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0008758767368816537,
+          "walk_dx_m": 0.28290623404148374,
+          "walk_dy_m": 0.02101085768949126,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0008285614198308589,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 7.0,
+          "peak_push_tilt_deg": 66.96395267104288,
+          "min_case_floor_gap_mm": 42.17540158611219,
+          "min_estimated_bus_v": 7.0538821568883066,
+          "max_simulated_joint_torque_Nm": 0.777062710499233,
+          "gait_pass": true
+        },
+        {
+          "seed": 16407,
+          "carpet": {
+            "tau_s": 0.05043962395606755,
+            "friction": 0.8302286822406854
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009145358895794245,
+          "walk_dx_m": 0.290150012689049,
+          "walk_dy_m": 0.02906542585921332,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0008116200119696118,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.86,
+          "peak_push_tilt_deg": 71.06787065504993,
+          "min_case_floor_gap_mm": 15.475626502213762,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.8671420253115271,
+          "gait_pass": true
+        }
+      ]
+    },
+    {
+      "foot": "v2-heel15",
+      "case": "v5-nominal",
+      "speed": 0.0,
+      "scale": 1.0,
+      "push_Ns_per_kg": 0.85,
+      "model": {
+        "standing_robot_center_from_trunk_mm": [
+          5.814069672484815,
+          0.060451126272909696,
+          -12.86223071721418
+        ],
+        "trunk_mass_kg": 0.2627895297428067,
+        "trunk_center_m": [
+          -0.01940248559690053,
+          -0.00012991390494228964,
+          -0.024556922436510347
+        ],
+        "central_inertia_kg_m2": [
+          [
+            0.00018923496210288823,
+            -1.0079749078791896e-06,
+            -5.051328016119642e-05
+          ],
+          [
+            -1.0079749078791902e-06,
+            0.00028699185419296273,
+            1.9480932229427492e-08
+          ],
+          [
+            -5.0513280161196416e-05,
+            1.948093222942901e-08,
+            0.00024560083748484277
+          ]
+        ],
+        "robot_mass_kg": 0.8500186925513169,
+        "remaining_legacy_trunk": {
+          "mass_g": 84.62521614737423,
+          "central_principal_kg_m2": [
+            4.7137737419947025e-05,
+            9.305110631995134e-05,
+            0.00012460357421325755
+          ]
+        },
+        "imu_site_mm": [
+          -13.982,
+          -0.013,
+          -23.872999999999998
+        ],
+        "delta_g": 34.16874910132692,
+        "old_trunk": {
+          "standing_robot_center_from_trunk_mm": [
+            8.306733066822272,
+            0.10128241731758018,
+            -12.091075995853462
+          ],
+          "trunk_mass_kg": 0.2286207806414798,
+          "trunk_center_m": [
+            -0.014276,
+            -1.265565997738796e-05,
+            -0.02355284245744959
+          ],
+          "central_inertia_kg_m2": [
+            [
+              0.00015770114375269857,
+              5.082512930342637e-08,
+              -4.243723715974853e-05
+            ],
+            [
+              5.0825129303426404e-08,
+              0.00022283358492271885,
+              5.940000838335925e-08
+            ],
+            [
+              -4.243723715974853e-05,
+              5.940000838335917e-08,
+              0.00018709612859332876
+            ]
+          ],
+          "robot_mass_kg": 0.81584994344999
+        }
+      },
+      "episodes": [
+        {
+          "seed": 16400,
+          "carpet": {
+            "tau_s": 0.056602517155192836,
+            "friction": 0.6982168637952924
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.00136510987843408,
+          "walk_dx_m": 0.00035388373877410286,
+          "walk_dy_m": 0.0022063940996238963,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0009257735119395978,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 20.153681435709164,
+          "min_case_floor_gap_mm": 43.42850396596889,
+          "min_estimated_bus_v": 7.078926941496598,
+          "max_simulated_joint_torque_Nm": 0.8122267602733272,
+          "gait_pass": false
+        },
+        {
+          "seed": 16401,
+          "carpet": {
+            "tau_s": 0.06040965963013771,
+            "friction": 0.9161736681784499
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0008205648248210942,
+          "walk_dx_m": 0.001515349158896051,
+          "walk_dy_m": 0.0019122251065633892,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.001588683823525254,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 24.13949377020677,
+          "min_case_floor_gap_mm": 37.639290485703384,
+          "min_estimated_bus_v": 7.030240888967514,
+          "max_simulated_joint_torque_Nm": 0.8266683761439608,
+          "gait_pass": false
+        },
+        {
+          "seed": 16402,
+          "carpet": {
+            "tau_s": 0.052814049209947554,
+            "friction": 0.8519427989793301
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0008790102486120227,
+          "walk_dx_m": 0.0007512573766355527,
+          "walk_dy_m": 0.0015673602210513776,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0009932241605859814,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 22.420587179234218,
+          "min_case_floor_gap_mm": 41.13778314393313,
+          "min_estimated_bus_v": 7.071294376467433,
+          "max_simulated_joint_torque_Nm": 0.8166188077929462,
+          "gait_pass": false
+        },
+        {
+          "seed": 16403,
+          "carpet": {
+            "tau_s": 0.042421459324956376,
+            "friction": 0.597157148670429
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009864515098459649,
+          "walk_dx_m": 0.0007662689154359964,
+          "walk_dy_m": 0.001016778372659979,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0005760611606202285,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 17.78748485770554,
+          "min_case_floor_gap_mm": 51.706370970964294,
+          "min_estimated_bus_v": 7.090466724008597,
+          "max_simulated_joint_torque_Nm": 0.7796897263020968,
+          "gait_pass": false
+        },
+        {
+          "seed": 16404,
+          "carpet": {
+            "tau_s": 0.04016543668510945,
+            "friction": 1.0012848398150922
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0014222045462087126,
+          "walk_dx_m": 0.0008394663847465407,
+          "walk_dy_m": 0.0011268029310160254,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0009793233457423669,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 20.920203765329145,
+          "min_case_floor_gap_mm": 44.615125322449224,
+          "min_estimated_bus_v": 7.068557646093239,
+          "max_simulated_joint_torque_Nm": 0.8138230169122105,
+          "gait_pass": false
+        },
+        {
+          "seed": 16405,
+          "carpet": {
+            "tau_s": 0.04377463310868161,
+            "friction": 0.9603034696558816
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001328685331086155,
+          "walk_dx_m": 0.0007891429823983194,
+          "walk_dy_m": 0.001829243400431996,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0008351330675875963,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 21.074560512834243,
+          "min_case_floor_gap_mm": 43.34796183680051,
+          "min_estimated_bus_v": 7.0689502176988,
+          "max_simulated_joint_torque_Nm": 0.8850286578447218,
+          "gait_pass": false
+        },
+        {
+          "seed": 16406,
+          "carpet": {
+            "tau_s": 0.04036666199488455,
+            "friction": 0.7460622702605441
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001211799195866178,
+          "walk_dx_m": 0.0006486019082219303,
+          "walk_dy_m": 0.0013376405260421575,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0008517622877631986,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 18.741975452135257,
+          "min_case_floor_gap_mm": 48.31872628351236,
+          "min_estimated_bus_v": 7.07361473371661,
+          "max_simulated_joint_torque_Nm": 0.8169516089296761,
+          "gait_pass": false
+        },
+        {
+          "seed": 16407,
+          "carpet": {
+            "tau_s": 0.05043962395606755,
+            "friction": 0.8302286822406854
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0014878682011598171,
+          "walk_dx_m": 0.000637060745075689,
+          "walk_dy_m": 0.0016270161461853132,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0012101813779028065,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 20.837137183690512,
+          "min_case_floor_gap_mm": 42.897785629954335,
+          "min_estimated_bus_v": 7.070704786804305,
+          "max_simulated_joint_torque_Nm": 0.8146656302419162,
+          "gait_pass": false
+        }
+      ]
+    },
+    {
+      "foot": "v2-heel15",
+      "case": "v5-nominal",
+      "speed": 0.2,
+      "scale": 1.0,
+      "push_Ns_per_kg": 0.85,
+      "model": {
+        "standing_robot_center_from_trunk_mm": [
+          5.814069672484815,
+          0.060451126272909696,
+          -12.86223071721418
+        ],
+        "trunk_mass_kg": 0.2627895297428067,
+        "trunk_center_m": [
+          -0.01940248559690053,
+          -0.00012991390494228964,
+          -0.024556922436510347
+        ],
+        "central_inertia_kg_m2": [
+          [
+            0.00018923496210288823,
+            -1.0079749078791896e-06,
+            -5.051328016119642e-05
+          ],
+          [
+            -1.0079749078791902e-06,
+            0.00028699185419296273,
+            1.9480932229427492e-08
+          ],
+          [
+            -5.0513280161196416e-05,
+            1.948093222942901e-08,
+            0.00024560083748484277
+          ]
+        ],
+        "robot_mass_kg": 0.8500186925513169,
+        "remaining_legacy_trunk": {
+          "mass_g": 84.62521614737423,
+          "central_principal_kg_m2": [
+            4.7137737419947025e-05,
+            9.305110631995134e-05,
+            0.00012460357421325755
+          ]
+        },
+        "imu_site_mm": [
+          -13.982,
+          -0.013,
+          -23.872999999999998
+        ],
+        "delta_g": 34.16874910132692,
+        "old_trunk": {
+          "standing_robot_center_from_trunk_mm": [
+            8.306733066822272,
+            0.10128241731758018,
+            -12.091075995853462
+          ],
+          "trunk_mass_kg": 0.2286207806414798,
+          "trunk_center_m": [
+            -0.014276,
+            -1.265565997738796e-05,
+            -0.02355284245744959
+          ],
+          "central_inertia_kg_m2": [
+            [
+              0.00015770114375269857,
+              5.082512930342637e-08,
+              -4.243723715974853e-05
+            ],
+            [
+              5.0825129303426404e-08,
+              0.00022283358492271885,
+              5.940000838335925e-08
+            ],
+            [
+              -4.243723715974853e-05,
+              5.940000838335917e-08,
+              0.00018709612859332876
+            ]
+          ],
+          "robot_mass_kg": 0.81584994344999
+        }
+      },
+      "episodes": [
+        {
+          "seed": 16400,
+          "carpet": {
+            "tau_s": 0.056602517155192836,
+            "friction": 0.6982168637952924
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.00136510987843408,
+          "walk_dx_m": 0.3141398132118577,
+          "walk_dy_m": 0.04022195504119379,
+          "swing_touchdowns": [
+            5,
+            5
+          ],
+          "stop_speed_m_s": 0.0010619256554671697,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 19.922974243711764,
+          "min_case_floor_gap_mm": 45.82344118530576,
+          "min_estimated_bus_v": 7.076983449825732,
+          "max_simulated_joint_torque_Nm": 0.8108526239904374,
+          "gait_pass": true
+        },
+        {
+          "seed": 16401,
+          "carpet": {
+            "tau_s": 0.06040965963013771,
+            "friction": 0.9161736681784499
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0008205648248210942,
+          "walk_dx_m": 0.3343945576316171,
+          "walk_dy_m": 0.03815261221456685,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.001297931184680227,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 25.876745157689776,
+          "min_case_floor_gap_mm": 37.90675896629514,
+          "min_estimated_bus_v": 7.059730658551847,
+          "max_simulated_joint_torque_Nm": 0.8471659153387422,
+          "gait_pass": true
+        },
+        {
+          "seed": 16402,
+          "carpet": {
+            "tau_s": 0.052814049209947554,
+            "friction": 0.8519427989793301
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0008790102486120227,
+          "walk_dx_m": 0.30621779566035995,
+          "walk_dy_m": 0.03845199805332908,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.001541995317168238,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 19.900258142765843,
+          "min_case_floor_gap_mm": 45.72361558228094,
+          "min_estimated_bus_v": 7.0756827534654585,
+          "max_simulated_joint_torque_Nm": 0.8332025659517989,
+          "gait_pass": true
+        },
+        {
+          "seed": 16403,
+          "carpet": {
+            "tau_s": 0.042421459324956376,
+            "friction": 0.597157148670429
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009864515098459649,
+          "walk_dx_m": 0.29706310330182484,
+          "walk_dy_m": 0.011078383349645707,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0009026347302791233,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 17.216118687679536,
+          "min_case_floor_gap_mm": 53.986334694356024,
+          "min_estimated_bus_v": 7.085358878260439,
+          "max_simulated_joint_torque_Nm": 0.7935417484133056,
+          "gait_pass": true
+        },
+        {
+          "seed": 16404,
+          "carpet": {
+            "tau_s": 0.04016543668510945,
+            "friction": 1.0012848398150922
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0014222045462087126,
+          "walk_dx_m": 0.29093931462732353,
+          "walk_dy_m": 0.020459142707377167,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0010816898691392686,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 21.129168005190994,
+          "min_case_floor_gap_mm": 45.187006991962136,
+          "min_estimated_bus_v": 7.068263237501446,
+          "max_simulated_joint_torque_Nm": 0.8380017899867422,
+          "gait_pass": true
+        },
+        {
+          "seed": 16405,
+          "carpet": {
+            "tau_s": 0.04377463310868161,
+            "friction": 0.9603034696558816
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001328685331086155,
+          "walk_dx_m": 0.29221972717100797,
+          "walk_dy_m": 0.030193116919701304,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0014933815977575093,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 20.037985984933567,
+          "min_case_floor_gap_mm": 46.51947185274904,
+          "min_estimated_bus_v": 7.069696241269216,
+          "max_simulated_joint_torque_Nm": 0.8225177545079514,
+          "gait_pass": true
+        },
+        {
+          "seed": 16406,
+          "carpet": {
+            "tau_s": 0.04036666199488455,
+            "friction": 0.7460622702605441
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001211799195866178,
+          "walk_dx_m": 0.2929426798254184,
+          "walk_dy_m": 0.0187451502918735,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0007551135352789138,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 18.920150211085172,
+          "min_case_floor_gap_mm": 50.154585200891304,
+          "min_estimated_bus_v": 7.069655457266411,
+          "max_simulated_joint_torque_Nm": 0.8194801615127542,
+          "gait_pass": true
+        },
+        {
+          "seed": 16407,
+          "carpet": {
+            "tau_s": 0.05043962395606755,
+            "friction": 0.8302286822406854
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0014878682011598171,
+          "walk_dx_m": 0.3018509361398529,
+          "walk_dy_m": 0.03207344973617153,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.001311817448674623,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 20.07769620981961,
+          "min_case_floor_gap_mm": 46.116136853021516,
+          "min_estimated_bus_v": 7.075844505586131,
+          "max_simulated_joint_torque_Nm": 0.8219240701015387,
+          "gait_pass": true
+        }
+      ]
+    },
+    {
+      "foot": "v2-heel5",
+      "case": "2s2p-nominal",
+      "speed": 0.0,
+      "scale": 1.0,
+      "push_Ns_per_kg": 0.85,
+      "model": {
+        "standing_robot_center_from_trunk_mm": [
+          -0.306120582759724,
+          0.0659699643523482,
+          -12.696090884493804
+        ],
+        "trunk_mass_kg": 0.35267303681210377,
+        "trunk_center_m": [
+          -0.02998743015189977,
+          -6.934519824630752e-05,
+          -0.025131927769996128
+        ],
+        "central_inertia_kg_m2": [
+          [
+            0.0002320062971914476,
+            -1.33608922033178e-06,
+            -7.075799908991606e-05
+          ],
+          [
+            -1.3360892203317793e-06,
+            0.0004244895385840843,
+            9.138357400771955e-08
+          ],
+          [
+            -7.075799908991608e-05,
+            9.138357400771889e-08,
+            0.0003652702868805516
+          ]
+        ],
+        "robot_mass_kg": 0.927909684494964,
+        "remaining_legacy_trunk": {
+          "mass_g": 84.62521614737423,
+          "central_principal_kg_m2": [
+            4.7137737419947025e-05,
+            9.305110631995134e-05,
+            0.00012460357421325755
+          ]
+        },
+        "imu_site_mm": [
+          -34.482,
+          -0.013,
+          -23.872999999999998
+        ],
+        "delta_g": 124.05225617062396,
+        "old_trunk": {
+          "standing_robot_center_from_trunk_mm": [
+            8.742738814652046,
+            0.10297473243629983,
+            -10.327878222904541
+          ],
+          "trunk_mass_kg": 0.2286207806414798,
+          "trunk_center_m": [
+            -0.014276,
+            -1.265565997738796e-05,
+            -0.02355284245744959
+          ],
+          "central_inertia_kg_m2": [
+            [
+              0.00015770114375269857,
+              5.082512930342637e-08,
+              -4.243723715974853e-05
+            ],
+            [
+              5.0825129303426404e-08,
+              0.00022283358492271885,
+              5.940000838335925e-08
+            ],
+            [
+              -4.243723715974853e-05,
+              5.940000838335917e-08,
+              0.00018709612859332876
+            ]
+          ],
+          "robot_mass_kg": 0.80385742832434
+        }
+      },
+      "episodes": [
+        {
+          "seed": 16400,
+          "carpet": {
+            "tau_s": 0.056602517155192836,
+            "friction": 0.6982168637952924
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001247992977898669,
+          "walk_dx_m": 0.001222476234542135,
+          "walk_dy_m": 0.0011672904744982108,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0009201242210628114,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.42,
+          "peak_push_tilt_deg": 68.54598575007827,
+          "min_case_floor_gap_mm": 10.211399299128953,
+          "min_estimated_bus_v": 7.002523105738744,
+          "max_simulated_joint_torque_Nm": 1.1922049936810677,
+          "gait_pass": false
+        },
+        {
+          "seed": 16401,
+          "carpet": {
+            "tau_s": 0.06040965963013771,
+            "friction": 0.9161736681784499
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.00031078079560887785,
+          "walk_dx_m": -0.0007588659240927264,
+          "walk_dy_m": 0.00035111947491690647,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.00421673763317288,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.32,
+          "peak_push_tilt_deg": 46.59032222323224,
+          "min_case_floor_gap_mm": -2.3889999972935003,
+          "min_estimated_bus_v": 7.00764193922674,
+          "max_simulated_joint_torque_Nm": 0.8630027572793476,
+          "gait_pass": false
+        },
+        {
+          "seed": 16402,
+          "carpet": {
+            "tau_s": 0.052814049209947554,
+            "friction": 0.8519427989793301
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0006818490258791164,
+          "walk_dx_m": 0.0007006222380199043,
+          "walk_dy_m": 0.0012386029639176325,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0032275619983123463,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.4,
+          "peak_push_tilt_deg": 68.5125891593384,
+          "min_case_floor_gap_mm": -2.467914619923503,
+          "min_estimated_bus_v": 7.000287095508806,
+          "max_simulated_joint_torque_Nm": 0.9883819761482422,
+          "gait_pass": false
+        },
+        {
+          "seed": 16403,
+          "carpet": {
+            "tau_s": 0.042421459324956376,
+            "friction": 0.597157148670429
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0005734178179688608,
+          "walk_dx_m": 0.0006837800783434119,
+          "walk_dy_m": 0.0016817557487351375,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.002438596539367519,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.46,
+          "peak_push_tilt_deg": 70.51690112060403,
+          "min_case_floor_gap_mm": 11.642532747246207,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.8940307210273101,
+          "gait_pass": false
+        },
+        {
+          "seed": 16404,
+          "carpet": {
+            "tau_s": 0.04016543668510945,
+            "friction": 1.0012848398150922
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0007582185772546849,
+          "walk_dx_m": -0.0006317973210211155,
+          "walk_dy_m": 0.0014372171214323821,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0013664720815888948,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.3,
+          "peak_push_tilt_deg": 44.3961450010559,
+          "min_case_floor_gap_mm": -0.512990780341796,
+          "min_estimated_bus_v": 7.003759953548801,
+          "max_simulated_joint_torque_Nm": 0.8604377358935557,
+          "gait_pass": false
+        },
+        {
+          "seed": 16405,
+          "carpet": {
+            "tau_s": 0.04377463310868161,
+            "friction": 0.9603034696558816
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0007931274734480483,
+          "walk_dx_m": -9.519329476962994e-06,
+          "walk_dy_m": 0.0011564092028871224,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0008786134608229769,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.4,
+          "peak_push_tilt_deg": 71.49987546259003,
+          "min_case_floor_gap_mm": -7.709112811834978,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.9862191112784047,
+          "gait_pass": false
+        },
+        {
+          "seed": 16406,
+          "carpet": {
+            "tau_s": 0.04036666199488455,
+            "friction": 0.7460622702605441
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009066737766008191,
+          "walk_dx_m": 0.0005336552126299065,
+          "walk_dy_m": 0.0011496172265418715,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0005028287380939699,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.4,
+          "peak_push_tilt_deg": 66.37315807863948,
+          "min_case_floor_gap_mm": 9.55967837776768,
+          "min_estimated_bus_v": 7.00550444904886,
+          "max_simulated_joint_torque_Nm": 1.1762991266550007,
+          "gait_pass": false
+        },
+        {
+          "seed": 16407,
+          "carpet": {
+            "tau_s": 0.05043962395606755,
+            "friction": 0.8302286822406854
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.00025105379458326593,
+          "walk_dx_m": 3.772811635391155e-05,
+          "walk_dy_m": 0.001755490468904308,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0015312704993918776,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.34,
+          "peak_push_tilt_deg": 53.44890600001158,
+          "min_case_floor_gap_mm": -0.07846310685974411,
+          "min_estimated_bus_v": 7.004483525663205,
+          "max_simulated_joint_torque_Nm": 0.8635553943157249,
+          "gait_pass": false
+        }
+      ]
+    },
+    {
+      "foot": "v2-heel5",
+      "case": "2s2p-nominal",
+      "speed": 0.2,
+      "scale": 1.0,
+      "push_Ns_per_kg": 0.85,
+      "model": {
+        "standing_robot_center_from_trunk_mm": [
+          -0.306120582759724,
+          0.0659699643523482,
+          -12.696090884493804
+        ],
+        "trunk_mass_kg": 0.35267303681210377,
+        "trunk_center_m": [
+          -0.02998743015189977,
+          -6.934519824630752e-05,
+          -0.025131927769996128
+        ],
+        "central_inertia_kg_m2": [
+          [
+            0.0002320062971914476,
+            -1.33608922033178e-06,
+            -7.075799908991606e-05
+          ],
+          [
+            -1.3360892203317793e-06,
+            0.0004244895385840843,
+            9.138357400771955e-08
+          ],
+          [
+            -7.075799908991608e-05,
+            9.138357400771889e-08,
+            0.0003652702868805516
+          ]
+        ],
+        "robot_mass_kg": 0.927909684494964,
+        "remaining_legacy_trunk": {
+          "mass_g": 84.62521614737423,
+          "central_principal_kg_m2": [
+            4.7137737419947025e-05,
+            9.305110631995134e-05,
+            0.00012460357421325755
+          ]
+        },
+        "imu_site_mm": [
+          -34.482,
+          -0.013,
+          -23.872999999999998
+        ],
+        "delta_g": 124.05225617062396,
+        "old_trunk": {
+          "standing_robot_center_from_trunk_mm": [
+            8.742738814652046,
+            0.10297473243629983,
+            -10.327878222904541
+          ],
+          "trunk_mass_kg": 0.2286207806414798,
+          "trunk_center_m": [
+            -0.014276,
+            -1.265565997738796e-05,
+            -0.02355284245744959
+          ],
+          "central_inertia_kg_m2": [
+            [
+              0.00015770114375269857,
+              5.082512930342637e-08,
+              -4.243723715974853e-05
+            ],
+            [
+              5.0825129303426404e-08,
+              0.00022283358492271885,
+              5.940000838335925e-08
+            ],
+            [
+              -4.243723715974853e-05,
+              5.940000838335917e-08,
+              0.00018709612859332876
+            ]
+          ],
+          "robot_mass_kg": 0.80385742832434
+        }
+      },
+      "episodes": [
+        {
+          "seed": 16400,
+          "carpet": {
+            "tau_s": 0.056602517155192836,
+            "friction": 0.6982168637952924
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001247992977898669,
+          "walk_dx_m": 0.1996480655653894,
+          "walk_dy_m": 0.019046177563481762,
+          "swing_touchdowns": [
+            4,
+            4
+          ],
+          "stop_speed_m_s": 0.0010916410659166517,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.56,
+          "peak_push_tilt_deg": 55.45022927047518,
+          "min_case_floor_gap_mm": -0.5257815521481635,
+          "min_estimated_bus_v": 7.015765496042188,
+          "max_simulated_joint_torque_Nm": 0.9107527466101744,
+          "gait_pass": false
+        },
+        {
+          "seed": 16401,
+          "carpet": {
+            "tau_s": 0.06040965963013771,
+            "friction": 0.9161736681784499
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.00031078079560887785,
+          "walk_dx_m": 0.18269238060898,
+          "walk_dy_m": 0.014530586866591108,
+          "swing_touchdowns": [
+            4,
+            4
+          ],
+          "stop_speed_m_s": 0.0013822105114164405,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.46,
+          "peak_push_tilt_deg": 55.73567410567952,
+          "min_case_floor_gap_mm": -0.8812692356854751,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.872519186175864,
+          "gait_pass": false
+        },
+        {
+          "seed": 16402,
+          "carpet": {
+            "tau_s": 0.052814049209947554,
+            "friction": 0.8519427989793301
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0006818490258791164,
+          "walk_dx_m": 0.18630025710279985,
+          "walk_dy_m": 0.024312137551949928,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0009498716234558316,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.48,
+          "peak_push_tilt_deg": 61.21910267207296,
+          "min_case_floor_gap_mm": -8.442582556152336,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 1.0171136266013978,
+          "gait_pass": false
+        },
+        {
+          "seed": 16403,
+          "carpet": {
+            "tau_s": 0.042421459324956376,
+            "friction": 0.597157148670429
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0005734178179688608,
+          "walk_dx_m": 0.19900255879234138,
+          "walk_dy_m": 0.011643579607864139,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0024167981451791746,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.74,
+          "peak_push_tilt_deg": 67.35830167626938,
+          "min_case_floor_gap_mm": 13.249140320203523,
+          "min_estimated_bus_v": 7.0239174443757495,
+          "max_simulated_joint_torque_Nm": 0.8653710311361794,
+          "gait_pass": false
+        },
+        {
+          "seed": 16404,
+          "carpet": {
+            "tau_s": 0.04016543668510945,
+            "friction": 1.0012848398150922
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0007582185772546849,
+          "walk_dx_m": 0.1754576852243433,
+          "walk_dy_m": 0.017763358970617198,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0008862656815723334,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.44,
+          "peak_push_tilt_deg": 58.46323906119817,
+          "min_case_floor_gap_mm": -6.8474121595653585,
+          "min_estimated_bus_v": 7.017707180175806,
+          "max_simulated_joint_torque_Nm": 0.9544867294923162,
+          "gait_pass": false
+        },
+        {
+          "seed": 16405,
+          "carpet": {
+            "tau_s": 0.04377463310868161,
+            "friction": 0.9603034696558816
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0007931274734480483,
+          "walk_dx_m": 0.17637793131705706,
+          "walk_dy_m": 0.024170079920250716,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0011646508384800234,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.4,
+          "peak_push_tilt_deg": 62.01729801067352,
+          "min_case_floor_gap_mm": -3.996947861520883,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.8654361640475076,
+          "gait_pass": false
+        },
+        {
+          "seed": 16406,
+          "carpet": {
+            "tau_s": 0.04036666199488455,
+            "friction": 0.7460622702605441
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009066737766008191,
+          "walk_dx_m": 0.18748096129002115,
+          "walk_dy_m": 0.019355933429606127,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.00124983493309411,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.46,
+          "peak_push_tilt_deg": 68.67617088693773,
+          "min_case_floor_gap_mm": 11.246555921864562,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 1.00871188762547,
+          "gait_pass": false
+        },
+        {
+          "seed": 16407,
+          "carpet": {
+            "tau_s": 0.05043962395606755,
+            "friction": 0.8302286822406854
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.00025105379458326593,
+          "walk_dx_m": 0.19483109946510452,
+          "walk_dy_m": 0.01899285055328661,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0006846703701563288,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 38.4063538472109,
+          "min_case_floor_gap_mm": 12.19904534752006,
+          "min_estimated_bus_v": 7.032263329826985,
+          "max_simulated_joint_torque_Nm": 0.9395793075396326,
+          "gait_pass": false
+        }
+      ]
+    },
+    {
+      "foot": "v2-heel15",
+      "case": "2s2p-nominal",
+      "speed": 0.0,
+      "scale": 1.0,
+      "push_Ns_per_kg": 0.85,
+      "model": {
+        "standing_robot_center_from_trunk_mm": [
+          -0.5691231394270367,
+          0.06497316388383435,
+          -14.19635759070631
+        ],
+        "trunk_mass_kg": 0.35267303681210377,
+        "trunk_center_m": [
+          -0.02998743015189977,
+          -6.934519824630752e-05,
+          -0.025131927769996128
+        ],
+        "central_inertia_kg_m2": [
+          [
+            0.0002320062971914476,
+            -1.33608922033178e-06,
+            -7.075799908991606e-05
+          ],
+          [
+            -1.3360892203317793e-06,
+            0.0004244895385840843,
+            9.138357400771955e-08
+          ],
+          [
+            -7.075799908991608e-05,
+            9.138357400771889e-08,
+            0.0003652702868805516
+          ]
+        ],
+        "robot_mass_kg": 0.939902199620614,
+        "remaining_legacy_trunk": {
+          "mass_g": 84.62521614737423,
+          "central_principal_kg_m2": [
+            4.7137737419947025e-05,
+            9.305110631995134e-05,
+            0.00012460357421325755
+          ]
+        },
+        "imu_site_mm": [
+          -34.482,
+          -0.013,
+          -23.872999999999998
+        ],
+        "delta_g": 124.05225617062396,
+        "old_trunk": {
+          "standing_robot_center_from_trunk_mm": [
+            8.306733066822272,
+            0.10128241731758018,
+            -12.091075995853462
+          ],
+          "trunk_mass_kg": 0.2286207806414798,
+          "trunk_center_m": [
+            -0.014276,
+            -1.265565997738796e-05,
+            -0.02355284245744959
+          ],
+          "central_inertia_kg_m2": [
+            [
+              0.00015770114375269857,
+              5.082512930342637e-08,
+              -4.243723715974853e-05
+            ],
+            [
+              5.0825129303426404e-08,
+              0.00022283358492271885,
+              5.940000838335925e-08
+            ],
+            [
+              -4.243723715974853e-05,
+              5.940000838335917e-08,
+              0.00018709612859332876
+            ]
+          ],
+          "robot_mass_kg": 0.81584994344999
+        }
+      },
+      "episodes": [
+        {
+          "seed": 16400,
+          "carpet": {
+            "tau_s": 0.056602517155192836,
+            "friction": 0.6982168637952924
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009742924835627252,
+          "walk_dx_m": -0.0010796496610520172,
+          "walk_dy_m": -0.0020323555667018734,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0002893899822433354,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.76,
+          "peak_push_tilt_deg": 65.13138280074274,
+          "min_case_floor_gap_mm": 16.58260695688163,
+          "min_estimated_bus_v": 7.0295671093449235,
+          "max_simulated_joint_torque_Nm": 0.8961216011052706,
+          "gait_pass": false
+        },
+        {
+          "seed": 16401,
+          "carpet": {
+            "tau_s": 0.06040965963013771,
+            "friction": 0.9161736681784499
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001330616354912475,
+          "walk_dx_m": -0.0013901640551741382,
+          "walk_dy_m": -0.0029551786853417687,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0008348535604573202,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.42,
+          "peak_push_tilt_deg": 69.10404575611396,
+          "min_case_floor_gap_mm": -5.720806791720559,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.8774713650743846,
+          "gait_pass": false
+        },
+        {
+          "seed": 16402,
+          "carpet": {
+            "tau_s": 0.052814049209947554,
+            "friction": 0.8519427989793301
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0013973450400946996,
+          "walk_dx_m": -0.0003446085038450419,
+          "walk_dy_m": -0.00021123989576399952,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0030236688718173425,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.66,
+          "peak_push_tilt_deg": 47.810124652546136,
+          "min_case_floor_gap_mm": -3.8673794752944883,
+          "min_estimated_bus_v": 7.031362012088328,
+          "max_simulated_joint_torque_Nm": 0.8542787189785397,
+          "gait_pass": false
+        },
+        {
+          "seed": 16403,
+          "carpet": {
+            "tau_s": 0.042421459324956376,
+            "friction": 0.597157148670429
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0005265035173656833,
+          "walk_dx_m": -0.00153884076431958,
+          "walk_dy_m": -0.0019456133395238172,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.002806343272683347,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.92,
+          "peak_push_tilt_deg": 68.63165180662534,
+          "min_case_floor_gap_mm": 27.16936301658196,
+          "min_estimated_bus_v": 7.040564314526186,
+          "max_simulated_joint_torque_Nm": 0.9158943173973635,
+          "gait_pass": false
+        },
+        {
+          "seed": 16404,
+          "carpet": {
+            "tau_s": 0.04016543668510945,
+            "friction": 1.0012848398150922
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001539103162449076,
+          "walk_dx_m": -0.0012650127321074739,
+          "walk_dy_m": -0.0017205493522348637,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0012611669447410727,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.44,
+          "peak_push_tilt_deg": 63.41845730771409,
+          "min_case_floor_gap_mm": -4.250652815882605,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.9518531028925866,
+          "gait_pass": false
+        },
+        {
+          "seed": 16405,
+          "carpet": {
+            "tau_s": 0.04377463310868161,
+            "friction": 0.9603034696558816
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0017334360346147619,
+          "walk_dx_m": -0.0009158952850551737,
+          "walk_dy_m": -0.0013361973709204592,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0013700914156793023,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.44,
+          "peak_push_tilt_deg": 65.62805980801296,
+          "min_case_floor_gap_mm": -1.984637741880693,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.9951671829260731,
+          "gait_pass": false
+        },
+        {
+          "seed": 16406,
+          "carpet": {
+            "tau_s": 0.04036666199488455,
+            "friction": 0.7460622702605441
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0014750038119247955,
+          "walk_dx_m": -0.0014092679119582945,
+          "walk_dy_m": -0.0011020331464787253,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0014455408583281479,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.72,
+          "peak_push_tilt_deg": 70.7229331673411,
+          "min_case_floor_gap_mm": 20.89138091970141,
+          "min_estimated_bus_v": 7.032759221085675,
+          "max_simulated_joint_torque_Nm": 0.8354279273850739,
+          "gait_pass": false
+        },
+        {
+          "seed": 16407,
+          "carpet": {
+            "tau_s": 0.05043962395606755,
+            "friction": 0.8302286822406854
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.000743805758042508,
+          "walk_dx_m": -0.001724551194437286,
+          "walk_dy_m": -0.0017261950471620683,
+          "swing_touchdowns": [
+            0,
+            0
+          ],
+          "stop_speed_m_s": 0.0012559472874220442,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.52,
+          "peak_push_tilt_deg": 70.07471468123988,
+          "min_case_floor_gap_mm": -9.103735284761813,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 1.0404787590761444,
+          "gait_pass": false
+        }
+      ]
+    },
+    {
+      "foot": "v2-heel15",
+      "case": "2s2p-nominal",
+      "speed": 0.2,
+      "scale": 1.0,
+      "push_Ns_per_kg": 0.85,
+      "model": {
+        "standing_robot_center_from_trunk_mm": [
+          -0.5691231394270367,
+          0.06497316388383435,
+          -14.19635759070631
+        ],
+        "trunk_mass_kg": 0.35267303681210377,
+        "trunk_center_m": [
+          -0.02998743015189977,
+          -6.934519824630752e-05,
+          -0.025131927769996128
+        ],
+        "central_inertia_kg_m2": [
+          [
+            0.0002320062971914476,
+            -1.33608922033178e-06,
+            -7.075799908991606e-05
+          ],
+          [
+            -1.3360892203317793e-06,
+            0.0004244895385840843,
+            9.138357400771955e-08
+          ],
+          [
+            -7.075799908991608e-05,
+            9.138357400771889e-08,
+            0.0003652702868805516
+          ]
+        ],
+        "robot_mass_kg": 0.939902199620614,
+        "remaining_legacy_trunk": {
+          "mass_g": 84.62521614737423,
+          "central_principal_kg_m2": [
+            4.7137737419947025e-05,
+            9.305110631995134e-05,
+            0.00012460357421325755
+          ]
+        },
+        "imu_site_mm": [
+          -34.482,
+          -0.013,
+          -23.872999999999998
+        ],
+        "delta_g": 124.05225617062396,
+        "old_trunk": {
+          "standing_robot_center_from_trunk_mm": [
+            8.306733066822272,
+            0.10128241731758018,
+            -12.091075995853462
+          ],
+          "trunk_mass_kg": 0.2286207806414798,
+          "trunk_center_m": [
+            -0.014276,
+            -1.265565997738796e-05,
+            -0.02355284245744959
+          ],
+          "central_inertia_kg_m2": [
+            [
+              0.00015770114375269857,
+              5.082512930342637e-08,
+              -4.243723715974853e-05
+            ],
+            [
+              5.0825129303426404e-08,
+              0.00022283358492271885,
+              5.940000838335925e-08
+            ],
+            [
+              -4.243723715974853e-05,
+              5.940000838335917e-08,
+              0.00018709612859332876
+            ]
+          ],
+          "robot_mass_kg": 0.81584994344999
+        }
+      },
+      "episodes": [
+        {
+          "seed": 16400,
+          "carpet": {
+            "tau_s": 0.056602517155192836,
+            "friction": 0.6982168637952924
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0009742924835627252,
+          "walk_dx_m": 0.21296473742933789,
+          "walk_dy_m": 0.01728554435116892,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0027796012338103123,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.78,
+          "peak_push_tilt_deg": 70.5810049526802,
+          "min_case_floor_gap_mm": 21.64911542515846,
+          "min_estimated_bus_v": 7.052193778511705,
+          "max_simulated_joint_torque_Nm": 0.9721462680627044,
+          "gait_pass": true
+        },
+        {
+          "seed": 16401,
+          "carpet": {
+            "tau_s": 0.06040965963013771,
+            "friction": 0.9161736681784499
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001330616354912475,
+          "walk_dx_m": 0.20311515290973572,
+          "walk_dy_m": 0.033408595323847844,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.001412377135174731,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.58,
+          "peak_push_tilt_deg": 65.52907942335861,
+          "min_case_floor_gap_mm": 2.949127468231047,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.8352685405543001,
+          "gait_pass": true
+        },
+        {
+          "seed": 16402,
+          "carpet": {
+            "tau_s": 0.052814049209947554,
+            "friction": 0.8519427989793301
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0013973450400946996,
+          "walk_dx_m": 0.20304089336398315,
+          "walk_dy_m": 0.03128482009689511,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0030066047029353306,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": true,
+          "fell": false,
+          "kinematic_fall": false,
+          "case_strike": false,
+          "fell_phase": null,
+          "final_time_s": 8.6,
+          "peak_push_tilt_deg": 40.01939696926336,
+          "min_case_floor_gap_mm": 16.365837784535945,
+          "min_estimated_bus_v": 7.038976376336063,
+          "max_simulated_joint_torque_Nm": 0.9664133597970395,
+          "gait_pass": true
+        },
+        {
+          "seed": 16403,
+          "carpet": {
+            "tau_s": 0.042421459324956376,
+            "friction": 0.597157148670429
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0005265035173656833,
+          "walk_dx_m": 0.21295736427046297,
+          "walk_dy_m": 0.012813637606246115,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.0017708694284643226,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 7.14,
+          "peak_push_tilt_deg": 66.2900103547722,
+          "min_case_floor_gap_mm": 35.20656019827713,
+          "min_estimated_bus_v": 7.043296534049,
+          "max_simulated_joint_torque_Nm": 0.8261701711816065,
+          "gait_pass": true
+        },
+        {
+          "seed": 16404,
+          "carpet": {
+            "tau_s": 0.04016543668510945,
+            "friction": 1.0012848398150922
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.001539103162449076,
+          "walk_dx_m": 0.20137074764783153,
+          "walk_dy_m": 0.022846929766033478,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.002125617990509172,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.46,
+          "peak_push_tilt_deg": 66.77245336486244,
+          "min_case_floor_gap_mm": -4.532799342672505,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.9931774577108944,
+          "gait_pass": true
+        },
+        {
+          "seed": 16405,
+          "carpet": {
+            "tau_s": 0.04377463310868161,
+            "friction": 0.9603034696558816
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0017334360346147619,
+          "walk_dx_m": 0.19955836157103748,
+          "walk_dy_m": 0.02141991098290626,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.00334304744870736,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.5,
+          "peak_push_tilt_deg": 64.78989690710274,
+          "min_case_floor_gap_mm": -3.669144062379476,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.8587508496227513,
+          "gait_pass": false
+        },
+        {
+          "seed": 16406,
+          "carpet": {
+            "tau_s": 0.04036666199488455,
+            "friction": 0.7460622702605441
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.0014750038119247955,
+          "walk_dx_m": 0.20988690600360807,
+          "walk_dy_m": 0.024113318677782766,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.002120990659025536,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": true,
+          "case_strike": false,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.88,
+          "peak_push_tilt_deg": 66.93142407598657,
+          "min_case_floor_gap_mm": 29.56254468359469,
+          "min_estimated_bus_v": 7.039932526944886,
+          "max_simulated_joint_torque_Nm": 0.8125757834327895,
+          "gait_pass": true
+        },
+        {
+          "seed": 16407,
+          "carpet": {
+            "tau_s": 0.05043962395606755,
+            "friction": 0.8302286822406854
+          },
+          "held": true,
+          "last_hold_second_drift_m": 0.000743805758042508,
+          "walk_dx_m": 0.201855199711881,
+          "walk_dy_m": 0.03395678908210167,
+          "swing_touchdowns": [
+            5,
+            4
+          ],
+          "stop_speed_m_s": 0.004215247138723394,
+          "stopped": true,
+          "push_eligible": true,
+          "recovered": false,
+          "fell": true,
+          "kinematic_fall": false,
+          "case_strike": true,
+          "fell_phase": "push/recovery",
+          "final_time_s": 6.6,
+          "peak_push_tilt_deg": 56.649049869779795,
+          "min_case_floor_gap_mm": -6.13289838387289,
+          "min_estimated_bus_v": 7.0,
+          "max_simulated_joint_torque_Nm": 0.8994269119338354,
+          "gait_pass": true
+        }
+      ]
+    }
+  ]
+}

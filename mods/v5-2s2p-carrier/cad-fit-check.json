@@ -1,0 +1,324 @@
+{
+  "units": "mm unless otherwise specified",
+  "nominal_pack": {
+    "length": 67,
+    "width": 37.1,
+    "thickness": 36.9,
+    "measured_mass_g": 182,
+    "assembled_center": [
+      -0.058,
+      -0.05,
+      25.95
+    ]
+  },
+  "source_and_print_stl_sha256": {
+    "V5_AUDIO_VIDEO_BATTERY.stl": "06ce9067921fe70bd3e2848980941047ecf8d3651a3ab946f61537fbc625968c",
+    "V5_2S2P_carrier.stl": "29bd0f214060a40160099d70e55eff2e769a9e6dabaac3458766618c7ef75590",
+    "V5_2S2P_keeper.stl": "44899eb99f44c9c6d188a4c37c688fc4a74bb20f903c7cca06ccdad20fe5c50e"
+  },
+  "stock": {
+    "volume_mm3": 16074.28446366943,
+    "center_mm": [
+      0.17234724152365738,
+      -2.553944092982773,
+      11.303839055387972
+    ],
+    "inertia_about_own_com_m2_per_kg": [
+      [
+        0.0005816977342360917,
+        -1.8207514344150265e-06,
+        1.641986808117014e-06
+      ],
+      [
+        -1.8207514344150265e-06,
+        0.00038855893954200594,
+        -5.144415068185755e-06
+      ],
+      [
+        1.641986808117014e-06,
+        -5.144415068185755e-06,
+        0.0008463536800010821
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -26.94436264038086,
+        -35.75,
+        0.0
+      ],
+      [
+        26.94436264038086,
+        35.75,
+        29.0
+      ]
+    ],
+    "watertight": true,
+    "components": 1
+  },
+  "carrier": {
+    "volume_mm3": 21455.568020244045,
+    "center_mm": [
+      0.07432276447084749,
+      -2.4227776347196364,
+      19.3940130231506
+    ],
+    "inertia_about_own_com_m2_per_kg": [
+      [
+        0.0007619073724009124,
+        -2.0023860453506316e-06,
+        2.8392046706113952e-06
+      ],
+      [
+        -2.0023860453506316e-06,
+        0.0005628456375609414,
+        -6.727029043943107e-06
+      ],
+      [
+        2.8392046706113952e-06,
+        -6.727029043943107e-06,
+        0.000868307244080043
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -26.94436264038086,
+        -35.75,
+        -2.4897339745422187e-10
+      ],
+      [
+        26.916858673095703,
+        35.70427322387695,
+        49.5
+      ]
+    ],
+    "watertight": true,
+    "components": 1
+  },
+  "keeper": {
+    "volume_mm3": 856.6216984225488,
+    "center_mm": [
+      -1.3777776924320069e-08,
+      1.7695378318646842e-16,
+      1.0668720225381996
+    ],
+    "inertia_about_own_com_m2_per_kg": [
+      [
+        6.271179848867368e-06,
+        2.4773529402302604e-22,
+        7.883200124145415e-15
+      ],
+      [
+        2.4773529402302604e-22,
+        0.0001913005710885005,
+        3.3035006711310833e-22
+      ],
+      [
+        7.883200124145415e-15,
+        3.3035006711310833e-22,
+        0.00019680672545136405
+      ]
+    ],
+    "bounds_mm": [
+      [
+        -25.0,
+        -4.199999809265137,
+        0.0
+      ],
+      [
+        25.0,
+        4.199999809265137,
+        2.1500000953674316
+      ]
+    ],
+    "watertight": true,
+    "components": 1
+  },
+  "keeper_print_to_assembly_translation": [
+    -0.058,
+    -3.5,
+    45.0
+  ],
+  "assembly_shift_relative_to_stock_for_fixed_chassis": [
+    0,
+    0,
+    -20.5
+  ],
+  "pack_to_keeper_clearance": 0.6,
+  "insertion_sweep_extra_XY_clearance_each_side": [
+    0.77,
+    0.67
+  ],
+  "solid_overlap_mm3": {
+    "pack_case": 0.0,
+    "pack_keeper": 0.0,
+    "case_keeper": 4.894116770445063e-14,
+    "insertion_plus_clearance": 0.0
+  },
+  "four_chassis_mounts_z25_original_vs_z45_5_new": [
+    {
+      "stock_center_xy_mm": [
+        23.493602752685547,
+        14.449999809265137
+      ],
+      "new_center_xy_mm": [
+        23.493602752685547,
+        14.450000286102295
+      ],
+      "stock_section_diameters_xy_mm": [
+        2.0,
+        2.0
+      ],
+      "new_section_diameters_xy_mm": [
+        1.9903717041015625,
+        1.9138803482055664
+      ],
+      "center_displacement_mm": 4.76837158203125e-07,
+      "maximum_axis_diameter_difference_mm": 0.0861196517944336
+    },
+    {
+      "stock_center_xy_mm": [
+        23.493602752685547,
+        -18.950000762939453
+      ],
+      "new_center_xy_mm": [
+        23.493602752685547,
+        -18.949999809265137
+      ],
+      "stock_section_diameters_xy_mm": [
+        2.0,
+        2.0
+      ],
+      "new_section_diameters_xy_mm": [
+        1.91387939453125,
+        1.9138813018798828
+      ],
+      "center_displacement_mm": 9.5367431640625e-07,
+      "maximum_axis_diameter_difference_mm": 0.08612060546875
+    },
+    {
+      "stock_center_xy_mm": [
+        -23.610431671142578,
+        14.449999809265137
+      ],
+      "new_center_xy_mm": [
+        -23.598508834838867,
+        14.442800045013428
+      ],
+      "stock_section_diameters_xy_mm": [
+        2.0,
+        2.0
+      ],
+      "new_section_diameters_xy_mm": [
+        1.9377250671386719,
+        1.9759702682495117
+      ],
+      "center_displacement_mm": 0.013928051938633562,
+      "maximum_axis_diameter_difference_mm": 0.062274932861328125
+    },
+    {
+      "stock_center_xy_mm": [
+        -23.610431671142578,
+        -18.950000762939453
+      ],
+      "new_center_xy_mm": [
+        -23.610429763793945,
+        -18.9691219329834
+      ],
+      "stock_section_diameters_xy_mm": [
+        2.0,
+        2.0
+      ],
+      "new_section_diameters_xy_mm": [
+        1.9138832092285156,
+        1.9521255493164062
+      ],
+      "center_displacement_mm": 0.01912117013907492,
+      "maximum_axis_diameter_difference_mm": 0.08611679077148438
+    }
+  ],
+  "three_open_pcb_mounts_z1_5": [
+    {
+      "stock_center_xy_mm": [
+        -8.942462682723999,
+        -32.45328712463379
+      ],
+      "new_center_xy_mm": [
+        -8.942462682723999,
+        -32.44435405731201
+      ],
+      "stock_section_diameters_xy_mm": [
+        2.799999713897705,
+        2.799999237060547
+      ],
+      "new_section_diameters_xy_mm": [
+        2.799999713897705,
+        2.7701892852783203
+      ],
+      "center_displacement_mm": 0.008933067321777344,
+      "maximum_axis_diameter_difference_mm": 0.029809951782226562
+    },
+    {
+      "stock_center_xy_mm": [
+        -24.194364547729492,
+        18.34671306579626
+      ],
+      "new_center_xy_mm": [
+        -24.21734089929973,
+        18.33934639529198
+      ],
+      "stock_section_diameters_xy_mm": [
+        2.799999237060547,
+        2.799998474819173
+      ],
+      "new_section_diameters_xy_mm": [
+        2.7426376744159455,
+        2.770907710958369
+      ],
+      "center_displacement_mm": 0.024128418219971644,
+      "maximum_axis_diameter_difference_mm": 0.05736156264460135
+    },
+    {
+      "stock_center_xy_mm": [
+        18.99753761291504,
+        -32.45302987098694
+      ],
+      "new_center_xy_mm": [
+        18.9858717918396,
+        -32.43928265571594
+      ],
+      "stock_section_diameters_xy_mm": [
+        2.799999237060547,
+        2.7994723320007324
+      ],
+      "new_section_diameters_xy_mm": [
+        2.776667594909668,
+        2.7719779014587402
+      ],
+      "center_displacement_mm": 0.018029900417674955,
+      "maximum_axis_diameter_difference_mm": 0.027494430541992188
+    }
+  ],
+  "fourth_solid_pcb_boss_z1_5": [
+    {
+      "stock_center_xy_mm": [
+        24.077506099506493,
+        19.61671257019043
+      ],
+      "new_center_xy_mm": [
+        24.05374326924784,
+        19.62626928274159
+      ],
+      "stock_section_diameters_xy_mm": [
+        5.499937125770796,
+        5.5
+      ],
+      "new_section_diameters_xy_mm": [
+        5.541511001582503,
+        5.453061941948022
+      ],
+      "center_displacement_mm": 0.025612552717117123,
+      "maximum_axis_diameter_difference_mm": 0.04693805805197826
+    }
+  ],
+  "physical_fit": "Unverified. The model represents the rectangular pack body only."
+}

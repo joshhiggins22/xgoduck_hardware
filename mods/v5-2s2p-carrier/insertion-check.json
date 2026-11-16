@@ -1,0 +1,23 @@
+{
+  "pack_center_mm": [
+    -0.058,
+    -0.05,
+    25.95
+  ],
+  "pack_dims_xyz_mm": [
+    37.1,
+    67.0,
+    36.9
+  ],
+  "keeper_to_assembly_mm": [
+    -0.058,
+    -3.5,
+    45.0
+  ],
+  "case_closed_positive_solid": true,
+  "keeper_closed_positive_solid": true,
+  "case_vs_pack_mm3": 0.0,
+  "keeper_vs_pack_mm3": 0.0,
+  "insertion_swept_from_chassis_vs_case_mm3": 0.0,
+  "case_vs_keeper_mm3": 0.0
+}

@@ -1,0 +1,28 @@
+{
+  "version": "2706.1.17",
+  "added_depth_mm": 20.500000000000004,
+  "timeline_features": 38,
+  "parts": [
+    {
+      "part": "V5 2S2P battery carrier",
+      "volume_mm3": 21455.142425154714,
+      "features": 15,
+      "translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "part": "Removable pack keeper",
+      "volume_mm3": 856.6415647523936,
+      "features": 2,
+      "translation_mm": [
+        -0.058,
+        -3.5,
+        45.0
+      ]
+    }
+  ],
+  "warning_features": []
+}
